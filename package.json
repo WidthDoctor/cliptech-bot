@@ -1,0 +1,30 @@
+{
+  "name": "cliptech-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WidthDoctor/cliptech-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WidthDoctor/cliptech-bot/issues"
+  },
+  "homepage": "https://github.com/WidthDoctor/cliptech-bot#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cliptech-bot": "file:",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.7",
+    "openai": "^4.67.3"
+  }
+}
